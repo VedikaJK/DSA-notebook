@@ -1,3 +1,6 @@
+// Time Complexity : O(sumOfWordLengths) ...  for 1 search operation it will be O(wordLength) 
+// Space Complexity : O(sumOfWordLengths)
+
 class Trie {
 public:
 
