@@ -10,6 +10,7 @@ vector<vector<int>> floydwarshall(vector<vector<int>> graph, int n){
     vector<vector<int>> dist = graph;
 
     for(int i=0; i<n; i++){
+        // edge jk -> ji + ik
         for(int j=0; j<n; j++){
             for(int k=0; k<n; k++){
                 if( dist[j][i]!=INT_MAX && dist[i][k]!=INT_MAX && dist[j][k]>dist[j][i]+dist[i][k] ){
