@@ -1,5 +1,9 @@
 
-// Online IDE - Code Editor, Compiler, Interpreter
+/*
+Floyd–Warshall algorithm is an algorithm for finding the shortest paths 
+in a weighted graph with positive or negative edge weights (but with no negative cycles).
+*/
+
 
 #include<bits/stdc++.h>
 
