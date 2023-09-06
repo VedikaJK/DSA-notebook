@@ -1,5 +1,12 @@
 
-// Online IDE - Code Editor, Compiler, Interpreter
+/*
+- It finds the shortest path from a single source vertex to all other vertices in a non-negative weighted graph.
+
+- It uses the "greedy" approach by always selecting the vertex with the smallest tentative distance to the source 
+and relaxing its adjacent edges. It maintains a priority queue (min-heap) to efficiently select the next vertex.
+
+-  O(E + V log V) using data structures like a Fibonacci heap
+*/
 
 #include<bits/stdc++.h>
 
